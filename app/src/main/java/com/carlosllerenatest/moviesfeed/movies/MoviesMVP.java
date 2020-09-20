@@ -1,6 +1,5 @@
 package com.carlosllerenatest.moviesfeed.movies;
 
-import androidx.lifecycle.ViewModel;
 
 import io.reactivex.rxjava3.core.Observable;
 
@@ -8,7 +7,7 @@ import io.reactivex.rxjava3.core.Observable;
 public interface MoviesMVP {
 
     interface View{
-        void UpdateData(ViewModel viewModel);
+        void updateData(ViewModel viewModel);
 
         void showSnackbar(String s);
     }
